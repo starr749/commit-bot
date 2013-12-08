@@ -4,7 +4,11 @@ import os
 
 directory = sys.argv[1]
 
-text_file = open(sys.argv[2], "r")
+if len(sys.argv) > 2:
+    text_file = open(sys.argv[2], "r")
+else:
+    text_file = open("./commit_messages.txt", "r")
+
 lines = text_file.read().split('\n')
 text_file.close()
 
