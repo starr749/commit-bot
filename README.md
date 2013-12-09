@@ -15,6 +15,6 @@ python commit_bot.py <Git Directory> <Commit Message File>
 
 Commit Message file needs to have one commit message per line.
 
-If no path to a Commit Message File is specified it will attempt to look
-for a 'commit_messages.txt' file located in the same directory where it
-is committing.
+If no path to a Commit Message File is specified it will use one of
+several predefined commit messages. Courtesy of
+[xkcd](http://xkcd.com/1296/).
