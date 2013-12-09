@@ -1,8 +1,8 @@
 Commit Bot v0.1
-===============
+---------------
 
-A Git Commit Script for automatically adding and committing a git repo
-----------------------------------------------------------------------
+###A Git Commit Script for automatically adding and committing a git repo
+
 
 ### Dependencies are:
 1. Git (duh)
